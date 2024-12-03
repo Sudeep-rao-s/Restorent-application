@@ -1,0 +1,44 @@
+.online-order-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .online-order-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .online-order-form input,
+  .online-order-form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .menu-items {
+    margin-bottom: 10px;
+  }
+  
+  .menu-items div {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,131 @@
+.review-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .restaurant-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .rating-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .star {
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 5px;
+    color: #ddd;
+    transition: color 0.2s;
+  }
+  
+  .star.filled {
+    color: #f39c12;
+  }
+  
+  .dine-option-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .dine-option-section label {
+    margin-right: 20px;
+    font-size: 16px;
+  }
+  
+  .tags-section {
+    margin-top: 20px;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .tag {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tag.selected {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .experience-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit-btn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 600px) {
+    .restaurant-info {
+      flex-direction: column;
+    }
+  
+    .dine-option-section label {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .tags {
+      justify-content: center;
+    }
+  }
+  
